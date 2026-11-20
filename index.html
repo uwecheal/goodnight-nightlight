@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>晚安小夜灯 · 技术支持</title>
+<style>
+  :root { --bg: #fbf8f4; --fg: #2a2230; --muted: #6b6270; --accent: #c8701f; --card: #ffffff; --line: #ece4da; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #120e1c; --fg: #f1e9df; --muted: #a99fb0; --accent: #ffb066; --card: #1c1628; --line: #2c2340; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.75 -apple-system, "PingFang SC", "Helvetica Neue", sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 48px 20px 80px; }
+  h1 { font-size: 30px; margin: 0 0 6px; }
+  h2 { font-size: 19px; margin: 36px 0 8px; color: var(--accent); }
+  .lead { color: var(--muted); margin: 0 0 28px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 18px 20px; margin: 14px 0; }
+  .card strong { display: block; margin-bottom: 4px; }
+  hr { border: 0; border-top: 1px solid var(--line); margin: 56px 0 32px; }
+  a { color: var(--accent); }
+  .links a { margin-right: 18px; }
+</style>
+</head>
+<body>
+<main>
+<h1>🌙 晚安小夜灯</h1>
+<p class="lead">陪怕黑的孩子安心入睡：开灯后慢慢变暗，最后留一点暖红微光；孩子醒了摸一下屏幕，灯就亮回来。</p>
+<p class="links"><a href="privacy.html">隐私政策 / Privacy Policy</a><a href="https://github.com/uwecheal/goodnight-nightlight/issues">问题反馈 / Contact</a></p>
+
+<h2>常见问题</h2>
+<div class="card"><strong>灯会一直亮着吗？会不会很费电？</strong>开灯后屏幕保持常亮，并按设置的时长慢慢变暗。建议睡前插上充电器。光越暗，画面刷新越慢，平时的声音检测也只计算音量，额外耗电很少。</div>
+<div class="card"><strong>怎么结束夜灯？</strong>按住屏幕约 1 秒，会出现“结束夜灯”按钮。</div>
+<div class="card"><strong>孩子会不会切出去玩别的？</strong>可以打开“引导式访问”（设置 › 辅助功能 › 引导式访问）。开灯后连按三下侧边按钮，手机就只能停在小夜灯里。</div>
+<div class="card"><strong>梦话录音会上传吗？</strong>不会。录音只保存在这台手机上，不备份到 iCloud，到期自动删除。详见<a href="privacy.html">隐私政策</a>。</div>
+<div class="card"><strong>为什么要麦克风权限？</strong>用来判断孩子是否已经安静下来（只算音量），以及在家长打开“梦话录制”后录下说话声。不允许也可以正常当夜灯用。</div>
+
+<h2>联系我们</h2>
+<p>有问题或建议，请在 <a href="https://github.com/uwecheal/goodnight-nightlight/issues">GitHub 问题页面</a>留言。</p>
+
+<hr>
+
+<h1>🌙 Goodnight Nightlight</h1>
+<p class="lead">A gentle nightlight for children who are afraid of the dark. It slowly dims as they fall asleep and leaves a soft red glow. A tap brings the light back.</p>
+
+<h2>FAQ</h2>
+<div class="card"><strong>How do I stop the nightlight?</strong>Press and hold the screen for about one second, then tap “结束夜灯” (End).</div>
+<div class="card"><strong>Battery?</strong>The screen stays on while it dims, so keeping the phone on a charger is recommended. The app lowers its refresh rate as the light dims, and sound detection only measures loudness.</div>
+<div class="card"><strong>Are recordings uploaded?</strong>No. Recordings stay on the device, are excluded from iCloud backup and are deleted automatically. See the <a href="privacy.html">Privacy Policy</a>.</div>
+
+<h2>Contact</h2>
+<p>Please open an issue on <a href="https://github.com/uwecheal/goodnight-nightlight/issues">GitHub</a>.</p>
+</main>
+</body>
+</html>
